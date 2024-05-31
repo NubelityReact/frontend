@@ -4,13 +4,18 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^9.3.0",
+    "@eslint/js": "^9.3.0",
+    "eslint": "9.x",
+    "globals": "^15.3.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.5",
     "live-server": "^1.2.2",
     "prettier": "^3.2.5"
   },
   "scripts": {
-    "start": "live-server"
+    "start": "live-server",
+    "prepare": "husky",
+    "lint": "eslint .",
+    "lint-staged": "lint-staged"
   }
 }

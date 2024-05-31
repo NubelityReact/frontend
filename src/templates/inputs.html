@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs examples</title>
+</head>
+
+<body>
+    <header>
+        <img src="./download.png" alt="coca cola logo">
+        <nav>
+            <ul>
+                <li><a href="./index.html">Homepage</a></li>
+                <li><a href="./inputs.html">Inputs</a></li>
+                <li><a href="./other-tags.html">Otros tags</a></li>
+            </ul>
+        </nav>
+        <form action="">
+            <input type="search" placeholder="Haz tu búsqueda">
+            <button></button>
+        </form>
+    </header>
+    <main>
+        <h1>Inputs</h1>
+
+
+        <section>
+            <h2>Haz tu pedido</h2>
+            <form onsubmit="alert('Haciendo pedido...')" method="get">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name">
+                <label>
+                    <p>Contraseña</p>
+                    <input type="password">
+                </label>
+                <input type="checkbox" id="remember-user">
+                <label for="remember-user">Recordarme</label>
+                <input type="color">
+                <input type="date">
+                <input type="datetime">
+                <input type="email" required>
+
+
+                <div>
+                    <label>
+                        <input type="radio" name="gender">
+                        <p>Hombre</p>
+                    </label>
+                    <label>
+                        <input type="radio" name="gender">
+                        <p>Mujer</p>
+                    </label>
+                </div>
+
+                <select name="cars" id="cars">
+                    <option value="idCar1">Volvo</option>
+                    <option value="idCar2">Mercedez</option>
+                    <option value="idCar3">Audi</option>
+                    <option value="idCar4">Tesla</option>
+                </select>
+                <button>Enviar</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>¡Únete a nuestro equipo de trabajo</h2>
+            <form>
+                <label for="cv">Sube tu currículum</label>
+                <input type="file" id="cv">
+            </form>
+        </section>
+
+        <section>
+            <h2>Ver otros productos</h2>
+            <article>
+                <h3>Jugo de naranja</h3>
+                <img src="./orangeJuice.png" alt="jugo de naranja">
+                <p>Precio $20</p>
+
+                <section>
+                    <h4>Otras imágenes</h4>
+                    <div>
+                        <img src="image1.png" alt="imagen frontal jugo de naranja">
+                    </div>
+                </section>
+                <section>
+                    <h4></h4>
+                </section>
+            </article>
+        </section>
+    </main>
+    <aside></aside>
+    <footer></footer>
+</body>
+
+</html>

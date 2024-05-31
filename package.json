@@ -1,0 +1,16 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^9.3.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.5",
+    "live-server": "^1.2.2",
+    "prettier": "^3.2.5"
+  },
+  "scripts": {
+    "start": "live-server"
+  }
+}
